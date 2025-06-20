@@ -115,25 +115,6 @@ numpy>=1.24.0
 | 5-6   | Fair Quality      | 4-5             | 🟡 Some Concerns |
 | 0-4   | Poor Quality      | 0-3             | 🔴 High Risk   |
 
-## 📁 File Structure
-
-```
-nos-assessment-tool/
-├── nos_app.py              # Main application file
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-├── docs/                  # Documentation
-│   ├── user-guide.md      # Detailed user guide
-│   ├── api-reference.md   # Code documentation
-│   └── examples/          # Example assessments
-├── assets/                # Static assets
-│   ├── images/           # Screenshots and logos
-│   └── templates/        # Export templates
-└── tests/                # Unit tests
-    ├── test_calculations.py
-    └── test_exports.py
-```
-
 ## 🔧 Development
 
 ### Setting Up Development Environment
@@ -153,14 +134,6 @@ pip install -r requirements.txt
 streamlit run nos_app.py --server.runOnSave=true
 ```
 
-### Code Structure
-- **Part 1**: Core setup and configuration
-- **Part 2**: Calculation functions and utilities
-- **Part 3**: Assessment interface components
-- **Part 4**: Main application interface
-- **Part 5**: Reports and analytics
-- **Part 6**: Assessment guide and footer
-
 ### Contributing
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -169,11 +142,6 @@ streamlit run nos_app.py --server.runOnSave=true
 5. Open a Pull Request
 
 ## 📚 Documentation
-
-### For Users
-- [User Guide](docs/user-guide.md) - Comprehensive usage instructions
-- [Assessment Best Practices](docs/best-practices.md) - Quality assessment guidelines
-- [Export Formats](docs/export-formats.md) - Data export documentation
 
 ### For Developers
 - [API Reference](docs/api-reference.md) - Code documentation
@@ -246,10 +214,7 @@ This tool implements the original Newcastle-Ottawa Scale criteria as published b
 ## 📞 Support
 
 ### Getting Help
-- 📧 Email: [your-email@domain.com]
-- 💬 Issues: [GitHub Issues](https://github.com/your-username/nos-assessment-tool/issues)
-- 📖 Documentation: [Wiki](https://github.com/your-username/nos-assessment-tool/wiki)
-- 🎥 Video Tutorials: [YouTube Channel](https://youtube.com/your-channel)
+- 📧 Email: [nabeelsaddique@kemu.edu.pk]
 
 ### Reporting Bugs
 Please include:
@@ -273,9 +238,6 @@ Please include:
 - [ ] Machine learning quality prediction
 - [ ] Advanced reporting formats
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -313,7 +275,7 @@ If you use this tool in your research, please cite:
 
 *Developed for systematic review and meta-analysis research*
 
-© 2024 Muhammad Nabeel Saddique | Nibras Research Academy
+© 2025 Muhammad Nabeel Saddique | Nibras Research Academy
 
 *Advanced bias assessment for evidence-based medicine*
 
